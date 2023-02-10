@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Audio-GPT3/static/css/main.b9bda6e8.css",
-    "main.js": "/Audio-GPT3/static/js/main.52e361aa.js",
+    "main.js": "/Audio-GPT3/static/js/main.8684f392.js",
     "static/media/ai.png": "/Audio-GPT3/static/media/ai.aa60586ba1ba53762d94.png",
     "static/media/possibility.png": "/Audio-GPT3/static/media/possibility.525f13b61a2157d44de0.png",
     "static/media/napoleon.mp3": "/Audio-GPT3/static/media/napoleon.0b42df9cffce34abc506.mp3",
@@ -26,10 +26,10 @@
     "static/media/logo.svg": "/Audio-GPT3/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
     "index.html": "/Audio-GPT3/index.html",
     "main.b9bda6e8.css.map": "/Audio-GPT3/static/css/main.b9bda6e8.css.map",
-    "main.52e361aa.js.map": "/Audio-GPT3/static/js/main.52e361aa.js.map"
+    "main.8684f392.js.map": "/Audio-GPT3/static/js/main.8684f392.js.map"
   },
   "entrypoints": [
     "static/css/main.b9bda6e8.css",
-    "static/js/main.52e361aa.js"
+    "static/js/main.8684f392.js"
   ]
 }
