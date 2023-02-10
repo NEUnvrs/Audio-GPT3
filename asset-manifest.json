@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Audio-GPT3/static/css/main.3d7e2b1b.css",
+    "main.js": "/Audio-GPT3/static/js/main.b64cbbb2.js",
+    "static/media/ai.png": "/Audio-GPT3/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/possibility.png": "/Audio-GPT3/static/media/possibility.525f13b61a2157d44de0.png",
+    "static/media/napoleon.mp3": "/Audio-GPT3/static/media/napoleon.0b42df9cffce34abc506.mp3",
+    "static/media/wanderer.mp3": "/Audio-GPT3/static/media/wanderer.5f127cf4615d9453f6a3.mp3",
+    "static/media/secondAudioG.mp3": "/Audio-GPT3/static/media/secondAudioG.02aa651e5b517a450c9a.mp3",
+    "static/media/the_starry_night.mp3": "/Audio-GPT3/static/media/the_starry_night.40b7581e2ce24313f3b0.mp3",
+    "static/media/firstaudioG.mp3": "/Audio-GPT3/static/media/firstaudioG.fac887b33a0229198179.mp3",
+    "static/media/thirdAudioG.mp3": "/Audio-GPT3/static/media/thirdAudioG.2f2028ccc8d89a17dd83.mp3",
+    "static/media/second_1.mp3": "/Audio-GPT3/static/media/second_1.02f1c0f9c0de3aab96f5.mp3",
+    "static/media/third_2.mp3": "/Audio-GPT3/static/media/third_2.6c591d7dbdf8dae2b1a6.mp3",
+    "static/media/third_original.mp3": "/Audio-GPT3/static/media/third_original.aff3b048d8ce3aa7639d.mp3",
+    "static/media/second_original.mp3": "/Audio-GPT3/static/media/second_original.fd2310defd709f72e8c1.mp3",
+    "static/media/the_starry_night.jpg": "/Audio-GPT3/static/media/the_starry_night.d2c3cc9073af4adac09a.jpg",
+    "static/media/napoleon.jpg": "/Audio-GPT3/static/media/napoleon.5c36dc4979ab308741cc.jpg",
+    "static/media/first_0.mp3": "/Audio-GPT3/static/media/first_0.53ed829a19139bc875a4.mp3",
+    "static/media/second_prompt.mp3": "/Audio-GPT3/static/media/second_prompt.8dff4cc7db07d823147b.mp3",
+    "static/media/third_prompt.mp3": "/Audio-GPT3/static/media/third_prompt.3583110d8c32109c26de.mp3",
+    "static/media/first_original.mp3": "/Audio-GPT3/static/media/first_original.e76747ae585182423b00.mp3",
+    "static/media/wanderer.jpg": "/Audio-GPT3/static/media/wanderer.1047a7c1f912b871df34.jpg",
+    "static/media/people.png": "/Audio-GPT3/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/first_prompt.mp3": "/Audio-GPT3/static/media/first_prompt.851dc73ede4ee14852aa.mp3",
+    "static/media/logo.svg": "/Audio-GPT3/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
+    "index.html": "/Audio-GPT3/index.html",
+    "main.3d7e2b1b.css.map": "/Audio-GPT3/static/css/main.3d7e2b1b.css.map",
+    "main.b64cbbb2.js.map": "/Audio-GPT3/static/js/main.b64cbbb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d7e2b1b.css",
+    "static/js/main.b64cbbb2.js"
+  ]
+}
