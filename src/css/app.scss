@@ -9,7 +9,7 @@
 
 }
 
-html{
+html {
     overflow-x: hidden;
 }
 
@@ -40,6 +40,21 @@ a {
     /* global 92%+ browsers support */
     background: radial-gradient(circle at 3% 35%, $light-gradiant 0%, $dark-gradiant 100%);
 
+}
+
+.load {
+    background: $color-bg;
+    @include display(flex, center, center, column);
+    width: 100%;
+    height: 100vh;
+
+    h1 {
+        font-size: 30px;
+        background: $gradient-text, $text-color;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
 }
 
 // keyframes section
