@@ -43,6 +43,7 @@
   text-align: center;
   color: #fff;
   border: 1px solid #FFFFFF;
+  cursor: pointer;
 }
 .footer__services {
   display: flex;
