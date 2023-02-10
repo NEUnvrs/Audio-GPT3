@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0 0 0;
+  background: #031B34;
+}
+.footer__access {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__access h1 {
+  width: 821px;
+  margin: 9rem 0 3rem 0;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.footer__access--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+  box-sizing: border-box;
+  width: 218px;
+  height: 65px;
+  margin: 0 0 10rem 0;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #FFFFFF;
+}
+.footer__services {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+}
+.footer__services--gpt3 {
+  width: 168px;
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+}
+.footer__services--gpt3 img {
+  margin: 0 0 3rem 0;
+}
+.footer__services--terms {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+}
+.footer .end {
+  margin: 2rem 0;
+  color: #fff;
+}
+.footer .end a {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 4rem;
+}
+.links h3 {
+  margin: 0 0 2rem 0;
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #fff;
+}
+.links p {
+  width: 116px;
+  padding: 1rem 0;
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+  .footer__access {
+    text-align: center;
+  }
+  .footer__services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+  .footer__services--gpt3 {
+    margin: 0 0 3rem 0;
+  }
+  .footer .end {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 900px) {
+  .footer__access h1 {
+    width: auto;
+    font-size: 30px;
+  }
+  .footer__services--terms {
+    width: auto;
+    flex-wrap: wrap;
+  }
+  .footer .links {
+    height: auto;
+    margin: 0;
+  }
+}
+@media (max-width: 350px) {
+  .footer .links:nth-child(3) {
+    display: none;
+  }
+}/*# sourceMappingURL=footer.css.map */

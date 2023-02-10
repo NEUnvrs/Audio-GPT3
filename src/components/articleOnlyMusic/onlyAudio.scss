@@ -1,0 +1,35 @@
+@import "../../css/variables.scss";
+
+.containerMusic {
+    @include display(flex, space-between, center, row);
+    margin: 5rem 0;
+    
+    p {
+        font-size: 24px;
+        color: $text-color;
+        font-family: $font-family;
+    }
+
+}
+
+// media queries
+
+@media (max-width: 1150px) {
+    .containerMusic{
+        flex-direction: column;
+        margin: 3rem 0 ;
+
+        p{
+            font-size: 20px;
+        }
+        &__original{
+            margin: 1rem 0;
+        }
+        &__prompt{
+            margin: 1rem 0;
+        }
+        &__continue{
+            margin: 1rem 0;
+        }
+    }
+}

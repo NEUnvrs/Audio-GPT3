@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.header {
+  display: flex;
+}
+.header__Content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 5rem;
+}
+.header__Content--text {
+  width: 100%;
+  height: 100%;
+  font-family: "Manrope", sans-serif;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header__Content--description {
+  width: 100%;
+  height: 100%;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #81AFDD;
+  margin-top: 1.5rem;
+}
+.header__Content--input {
+  display: flex;
+  width: 100%;
+  margin: 2rem 0 1rem;
+}
+.header__Content--input input {
+  flex: 2;
+  padding: 0 1rem;
+  width: 100%;
+  min-height: 50px;
+  color: #fff;
+  background: #052D56;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 2px solid #031B34;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+.header__Content--input button {
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 1rem;
+  background: #FF4820;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.header__Content--requested {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.header__Content--requested img {
+  width: 181.79px;
+  height: 38px;
+}
+.header__Content--requested p {
+  margin: 0 0 0 1rem;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+}
+.header__Content--ai {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+}
+.header__Content--ai img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 1050px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__Content {
+    margin: 4rem;
+  }
+}
+@media (max-width: 650px) {
+  .header__Content h1 {
+    font-size: 3rem;
+  }
+  .header__Content--description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .header__Content--requested {
+    flex-direction: column;
+  }
+  .header__Content--requested p {
+    margin: 0;
+  }
+  .header__Content__Content--input input,
+  .header__Content__Content--input button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .header__Content h1 {
+    font-size: 2rem;
+    line-height: 48px;
+  }
+  .header__Content--description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .header__Content--requested p {
+    margin-top: 1rem;
+  }
+}/*# sourceMappingURL=header.css.map */

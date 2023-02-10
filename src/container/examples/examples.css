@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.examples {
+  display: flex;
+  justify-content: flex-start;
+  align-items: none;
+  flex-direction: column;
+  padding: 0 10rem;
+}
+.examples__title {
+  width: 701px;
+  padding: 0 0 2rem 0;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  /* or 121% */
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.examples__generation {
+  background: #042c54;
+}
+.examples__audio {
+  margin: 0 0 5rem 0;
+}
+.examples h2 {
+  width: 310px;
+  padding: 2rem 1rem;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 75px;
+}
+
+.audioGeneration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 8rem 0;
+  padding: 0 2rem;
+}
+.audioGeneration span {
+  font-size: 30px;
+  color: #fff;
+}
+.audioGeneration p {
+  width: 600px;
+  padding: 0 2rem 0 0;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  color: #81AFDD;
+}
+
+@media (max-width: 1150px) {
+  .audioGeneration {
+    flex-direction: column;
+    margin: 4rem 0;
+  }
+  .audioGeneration audio {
+    margin: 3rem 0;
+  }
+}
+@media (max-width: 880px) {
+  .examples {
+    align-items: center;
+  }
+  .examples__title {
+    width: 310px;
+    padding: 2rem 1rem;
+    font-size: 34px;
+  }
+  .examples__music {
+    width: 370px;
+  }
+  .examples h2 {
+    font-size: 22px;
+  }
+  .audioGeneration span {
+    font-size: 24px;
+  }
+  .audioGeneration p {
+    width: 250px;
+  }
+}/*# sourceMappingURL=examples.css.map */

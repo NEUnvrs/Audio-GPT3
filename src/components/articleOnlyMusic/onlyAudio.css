@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.containerMusic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 5rem 0;
+}
+.containerMusic p {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+}
+
+@media (max-width: 1150px) {
+  .containerMusic {
+    flex-direction: column;
+    margin: 3rem 0;
+  }
+  .containerMusic p {
+    font-size: 20px;
+  }
+  .containerMusic__original {
+    margin: 1rem 0;
+  }
+  .containerMusic__prompt {
+    margin: 1rem 0;
+  }
+  .containerMusic__continue {
+    margin: 1rem 0;
+  }
+}/*# sourceMappingURL=onlyAudio.css.map */

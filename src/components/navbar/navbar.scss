@@ -1,0 +1,210 @@
+@import "../../css/variables.scss";
+
+.audioGPT3__navbar {
+    @include display(flex, center, center, none);
+    padding: 2rem 6rem;
+
+    &--Links {
+        flex: 1;
+        @include display(flex, center, center, none);
+
+        &__logo {
+            margin-right: 2rem;
+
+            img {
+                @include size(62.56px, 16.02px);
+            }
+        }
+
+        &__container {
+            @include display(flex, center, center, row);
+
+            p,
+            a {
+                color: $text-color;
+                font-family: $font-family;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 25px;
+                text-transform: capitalize;
+
+                margin: 0 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &--sign {
+        @include display(flex, center, center, row);
+
+        &__section {
+            @include display(flex, flex-end, center, row);
+
+            p {
+                color: $text-color;
+                font-family: $font-family;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 25px;
+                text-transform: capitalize;
+
+                margin: 0 1rem;
+                cursor: pointer;
+            }
+
+            button {
+                padding: 0.5rem 1rem;
+                color: $text-color;
+                background: $button;
+                font-family: $font-family;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 25px;
+                border-radius: 5px;
+                border: 0;
+                outline: none;
+                cursor: pointer;
+            }
+
+        }
+
+        &__menu {
+            display: none;
+            position: relative;
+            margin-left: 1rem;
+
+            svg {
+                cursor: pointer;
+            }
+
+            &--container {
+                @include display(flex, flex-end, flex-end, column);
+                text-align: end;
+                background: $color-footer;
+                position: absolute;
+                padding: 2rem;
+                top: 40px;
+                right: 0;
+                margin-top: 1rem;
+                border-radius: 5px;
+                box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+
+                p {
+                    margin: 1rem 0;
+                }
+
+                &__links--sign {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+.slide-in-elliptic-top-fwd {
+    -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+// keyframes 
+/* ----------------------------------------------
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-elliptic-top-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-elliptic-top-fwd {
+    0% {
+        -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+        transform: translateY(-600px) rotateX(-30deg) scale(0);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0) rotateX(0) scale(1);
+        transform: translateY(0) rotateX(0) scale(1);
+        -webkit-transform-origin: 50% 1400px;
+        transform-origin: 50% 1400px;
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-elliptic-top-fwd {
+    0% {
+        -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+        transform: translateY(-600px) rotateX(-30deg) scale(0);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0) rotateX(0) scale(1);
+        transform: translateY(0) rotateX(0) scale(1);
+        -webkit-transform-origin: 50% 1400px;
+        transform-origin: 50% 1400px;
+        opacity: 1;
+    }
+}
+
+// mediaquery
+
+@media screen and (max-width: 1050px) {
+    .audioGPT3__navbar--Links__container {
+        display: none;
+    }
+
+    .audioGPT3__navbar--sign__menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .audioGPT3__navbar--sign__menu--container {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .audioGPT3__navbar--sign__menu--container {
+        padding: 2rem;
+    }
+
+    .audioGPT3__navbar--sign__section {
+        display: none;
+    }
+
+    .audioGPT3__navbar--sign__menu--container__links--sign {
+        @include display(flex, center, capitalize, column);
+        font-family: $font-family;
+
+        p {
+            color: $text-color;
+        }
+
+        button {
+            padding: 0.5rem .5rem;
+            color: $text-color;
+            background: $button;
+            line-height: 25px;
+            border-radius: 5px;
+            border: 0;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            outline: none;
+            cursor: pointer;
+        }
+
+    }
+}

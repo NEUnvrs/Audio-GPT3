@@ -1,0 +1,64 @@
+@import "../../css/variables.scss";
+
+.containerImg {
+    @include display(flex, center, center, row);
+    margin: 4rem 0;
+
+    &__painting {
+        width: 350px;
+        flex: 1;
+    }
+
+    &__description {
+        @include display(flex, center, center, column);
+        padding: 0 4rem;
+        flex: 1;
+        width: 731px;
+        color: $text-color;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+
+        h1 {
+            text-align: center;
+            margin: 0 0 4rem 0;
+        }
+
+        p {
+            color: $color-text;
+        }
+    }
+}
+
+@media (max-width: 1350px) {
+    .containerImg {
+        flex-direction: column;
+
+        &__painting {
+            width: auto;
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        audio {
+            margin: 3rem 0;
+        }
+
+    }
+}
+
+@media (max-width: 750px) {
+    .containerImg {
+        h1 {
+            width: 300px;
+            font-size: 22px;
+        }
+
+        p {
+            width: 250px;
+        }
+    }
+}

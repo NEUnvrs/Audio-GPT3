@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.audioGPT3__navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+  padding: 2rem 6rem;
+}
+.audioGPT3__navbar--Links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+}
+.audioGPT3__navbar--Links__logo {
+  margin-right: 2rem;
+}
+.audioGPT3__navbar--Links__logo img {
+  width: 62.56px;
+  height: 16.02px;
+}
+.audioGPT3__navbar--Links__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.audioGPT3__navbar--Links__container p,
+.audioGPT3__navbar--Links__container a {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.audioGPT3__navbar--sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.audioGPT3__navbar--sign__section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.audioGPT3__navbar--sign__section p {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.audioGPT3__navbar--sign__section button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #FF4820;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.audioGPT3__navbar--sign__menu {
+  display: none;
+  position: relative;
+  margin-left: 1rem;
+}
+.audioGPT3__navbar--sign__menu svg {
+  cursor: pointer;
+}
+.audioGPT3__navbar--sign__menu--container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: #031B34;
+  position: absolute;
+  padding: 2rem;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+.audioGPT3__navbar--sign__menu--container p {
+  margin: 1rem 0;
+}
+.audioGPT3__navbar--sign__menu--container__links--sign {
+  display: none;
+}
+
+.slide-in-elliptic-top-fwd {
+  animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* ----------------------------------------------
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation slide-in-elliptic-top-fwd
+ * ----------------------------------------
+ */
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) rotateX(0) scale(1);
+    transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .audioGPT3__navbar--Links__container {
+    display: none;
+  }
+  .audioGPT3__navbar--sign__menu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 750px) {
+  .audioGPT3__navbar--sign__menu--container {
+    padding: 2rem 4rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .audioGPT3__navbar--sign__menu--container {
+    padding: 2rem;
+  }
+  .audioGPT3__navbar--sign__section {
+    display: none;
+  }
+  .audioGPT3__navbar--sign__menu--container__links--sign {
+    display: flex;
+    justify-content: center;
+    align-items: capitalize;
+    flex-direction: column;
+    font-family: "Manrope", sans-serif;
+  }
+  .audioGPT3__navbar--sign__menu--container__links--sign p {
+    color: #fff;
+  }
+  .audioGPT3__navbar--sign__menu--container__links--sign button {
+    padding: 0.5rem 0.5rem;
+    color: #fff;
+    background: #FF4820;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    outline: none;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,112 @@
+@import "../../css/variables.scss";
+
+.examples {
+    @include display(flex, flex-start, none, column);
+    padding: 0 10rem;
+
+    &__title {
+        width: 701px;
+        padding: 0 0 2rem 0;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 62px;
+        line-height: 75px;
+        /* or 121% */
+
+        letter-spacing: -0.04em;
+
+        background: $gradient-text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    &__generation{
+        background: $color-article;
+    }
+
+    &__audio{
+        margin: 0 0 5rem 0;
+    }
+
+    h2 {
+        width: 310px;
+        padding: 2rem 1rem;
+        color: $text-color;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 75px;
+    }
+}
+
+//  AudioGeneration style 
+
+.audioGeneration {
+    @include display(flex, space-between, center, row);
+    margin: 8rem 0;
+    padding: 0 2rem;
+    span{
+        font-size: 30px;
+        color: $text-color;
+        
+    }
+    p {
+        width: 600px;
+        padding: 0 2rem 0 0;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 188% */
+
+
+        color: $color-text;
+    }
+}
+
+
+// media queries
+
+@media (max-width: 1150px){
+    .audioGeneration{
+        flex-direction: column;
+        margin: 4rem 0;
+        audio{
+            margin: 3rem 0;
+        }
+    }
+}
+
+@media (max-width: 880px) {
+    .examples {
+        align-items: center;
+
+        &__title {
+            width: 310px;
+            padding: 2rem 1rem;
+            font-size: 34px;
+            ;
+        }
+
+        &__music{
+            width: 370px;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+    }
+
+    .audioGeneration{
+        span{
+            font-size: 24px;
+        }
+        p{
+            width: 250px;
+        }
+    }
+}

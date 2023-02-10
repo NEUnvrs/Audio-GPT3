@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 5rem 0rem;
+}
+.container__all {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 80%;
+  height: 80%;
+  /* safari 5.1+,chrome 10+ */
+  /* opera 11.10+ */
+  /* ie 10+ */
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 30% -100%, #042c54 25%, rgb(4, 44, 84) 85%, rgb(27, 120, 222) 100%);
+}
+.container__all--whatis {
+  display: flex;
+}
+.container__all--possibility {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 4rem 0;
+}
+.container__all--possibility--title {
+  width: 472px;
+  height: 90px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #81AFDD;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.container__all--possibility p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FF8A71;
+}
+.container__all--subcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1050px) {
+  .container__all--possibility {
+    flex-direction: column;
+  }
+  .container__all--possibility p {
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 705px) {
+  .container__all {
+    width: 90%;
+    height: 100%;
+  }
+  .container__all--possibility--title {
+    width: auto;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=whatAudioGPT3.css.map */

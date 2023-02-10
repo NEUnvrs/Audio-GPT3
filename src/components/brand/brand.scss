@@ -1,0 +1,14 @@
+@import "../../css/variables.scss";
+
+.brand{
+    @include display(flex, center, center, row );
+    flex-wrap: wrap;
+    margin: 3rem 0;
+    div{
+        flex: 1;
+        max-width: 150px;
+        min-width: 120px;
+        @include display(flex, center, center, row );
+        padding: 2rem 1rem;
+    }
+}

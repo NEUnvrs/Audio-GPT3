@@ -1,0 +1,94 @@
+@import "../../css/variables.scss";
+
+.container {
+    @include display(flex, center, center, row);
+    padding: 5rem 0rem;
+
+    &__all {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        @include size(80%, 80%);
+
+        background: -moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+        /* safari 5.1+,chrome 10+ */
+        background: -webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+        /* opera 11.10+ */
+        background: -o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+        /* ie 10+ */
+        background: -ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+        /* global 92%+ browsers support */
+        background: radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+
+        &--whatis {
+            display: flex;
+        }
+
+        &--possibility {
+            @include display(flex, space-between, center, row);
+            margin: 4rem 0;
+
+            &--title {
+                @include size(472px, 90px);
+
+                font-family: $font-family;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 34px;
+                line-height: 45px;
+
+                background: $gradient-text, $color-text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+
+            p {
+                font-family: $font-family;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 30px;
+
+                color: $color-subtext;
+            }
+        }
+
+        &--subcontainer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+// media queries
+
+@media (max-width: 1050px) {
+    .container{
+        &__all--possibility{
+            flex-direction: column;
+            p{
+                padding-top: 3rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 705px){
+    .container{
+        &__all{
+            @include size(90%, 100%);
+
+            &--possibility--title{
+                width: auto;
+                font-size: 20px;
+            }
+        }
+    }
+}

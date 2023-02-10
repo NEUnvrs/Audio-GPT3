@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.possible {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10rem;
+}
+.possible__img img {
+  width: 546px;
+  height: 607.53px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.possible__text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10rem 0 0 2rem;
+}
+.possible__text--title {
+  padding: 2rem 0;
+  width: 426px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.possible__text--description {
+  width: 479px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #81AFDD;
+}
+.possible__text a {
+  padding-top: 3rem;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  color: #FF8A71;
+}
+
+@media (max-width: 1380px) {
+  .possible {
+    padding: 0 4rem;
+  }
+  .possible__img img {
+    width: 100%;
+    height: 100%;
+  }
+  .possible__text {
+    padding: 2rem 0 0 0;
+  }
+  .possible__text--title {
+    width: auto;
+  }
+  .possible__text--description {
+    width: auto;
+  }
+}/*# sourceMappingURL=possibility.css.map */
