@@ -1,5 +1,5 @@
 !!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!
-This is a ficticious Audio Generation AI, all resources are from musicLM and AudioLM from Google Reasearch 
+This is a fictitious Audio Generation AI, all resources are from musicLM and AudioLM from Google Reasearch 
 here the links:
 musicLM : https://google-research.github.io/seanet/musiclm/examples/
 AudioLm : https://google-research.github.io/seanet/audiolm/examples/
