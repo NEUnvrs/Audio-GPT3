@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className='end'>© 2023 AudioGPT-3. All rights reserved. DEMO !!!!important: This is ficticious, all resources that I used are in Readme or <a target={"_blank"} href='https://google-research.github.io/seanet/musiclm/examples/'>click here</a> to view MusiscLM of Google </p>
+      <p className='end'>© 2023 AudioGPT-3. All rights reserved. DEMO !!!!important: This is fictitious, all resources that I used are in Readme or <a target={"_blank"} href='https://google-research.github.io/seanet/musiclm/examples/'>click here</a> to view MusiscLM of Google </p>
 
     </div>
   )
